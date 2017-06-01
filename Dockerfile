@@ -13,4 +13,4 @@ RUN wget https://github.com/Yelp/dumb-init/releases/download/v1.1.3/dumb-init_1.
 	rm -f dumb-init_*.deb
 
 # Install configgin
-RUN /bin/bash -c "source /usr/local/rvm/scripts/rvm && gem install configgin --pre"
+RUN /bin/bash -c "source /usr/local/rvm/scripts/rvm && gem install configgin"
