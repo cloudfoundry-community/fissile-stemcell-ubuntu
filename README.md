@@ -1,6 +1,6 @@
-# fissile-stemmcell-ubuntu
+# fissile-stemcell-ubuntu
 
-This repository is intended to be used as base for creating fissile[1] docker[2] stemmcells.
+This repository is intended to be used as base for creating fissile[1] docker[2] stemcells.
 
 [1] [http://github.com/SUSE/fissile](http://github.com/SUSE/fissile)
 
