@@ -1,4 +1,3 @@
-
 # fissile-stemcell-ubuntu
 
 This repository is intended to be used as base for creating fissile[1] docker[2] stemcells.
