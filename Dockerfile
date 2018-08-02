@@ -17,9 +17,9 @@ RUN wget https://github.com/Yelp/dumb-init/releases/download/v1.1.3/dumb-init_1.
 RUN /bin/bash -c "source /usr/local/rvm/scripts/rvm && gem install configgin"
 
 # Add additional configuration and scripts
-ADD monitrc.erb /opt/hcf/monitrc.erb
+ADD monitrc.erb /opt/fissile/monitrc.erb
 
-ADD post-start.sh /opt/hcf/post-start.sh
-RUN chmod ug+x /opt/hcf/post-start.sh
+ADD post-start.sh /opt/fissile/post-start.sh
+RUN chmod ug+x /opt/fissile/post-start.sh
 
 ADD rsyslog_conf/etc /etc/
