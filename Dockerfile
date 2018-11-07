@@ -14,7 +14,7 @@ RUN wget https://github.com/Yelp/dumb-init/releases/download/v1.1.3/dumb-init_1.
 	rm -f dumb-init_*.deb
 
 # Install configgin
-RUN /bin/bash -c "source /usr/local/rvm/scripts/rvm && gem install configgin --version 0.18.3"
+RUN /bin/bash -c "source /usr/local/rvm/scripts/rvm && gem install configgin --version 0.18.4"
 
 # Add additional configuration and scripts
 ADD monitrc.erb /opt/fissile/monitrc.erb
